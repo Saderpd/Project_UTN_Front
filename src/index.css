@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+/* Tailwindscss V4.3 */
+/* no es un error, el vscode no lo reconoce pero funciona */
+@theme {
+  --color-primary: #1C1C1C;
+  --color-secondary: #D8CBB8;
+
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+body {
+  font-family: var(--font-sans);
+  color: var(--color-primary);
+}
