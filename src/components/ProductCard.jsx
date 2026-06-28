@@ -25,7 +25,7 @@ function ProductCard({ product }) {
   return (
     <Link
       to={`/product/${id}`}
-      className="relative flex flex-col bg-white border border-primary/10 rounded-lg p-4 hover:shadow-md transition-shadow"
+      className="relative flex flex-col bg-white border border-primary/15 rounded-lg p-4 hover:shadow-md transition-shadow"
     >
       <img
         src={image}

@@ -24,7 +24,7 @@ function ProductDetail() {
   }
 
   const { title, price, description, image, category, rating } = product
-
+/* estrella emoji de google */
   return (
     <div className="p-6 grid md:grid-cols-2 gap-8">
       <img
@@ -48,7 +48,7 @@ function ProductDetail() {
 
         <button
           onClick={() => addToCart(product)}
-          className="mt-4 bg-primary text-white py-3 px-6 rounded-lg w-fit"
+          className="mt-4 bg-primary text-white py-3 px-6 rounded-lg w-fit hover:opacity-90 transition-opacity"
         >
           Agregar al carrito
         </button>
